@@ -9,12 +9,12 @@ function App() {
 
   const addValue = () => {
     console.log("Clicked",counter)
-    const newCounter  = counter +2
+    const newCounter  = counter +1
     setCounter(newCounter)
   }
   const removeValue = () =>{
     console.log("removed",counter)
-    const newCounter=counter-2
+    const newCounter=counter-1
     setCounter(newCounter)
   }
   return (
